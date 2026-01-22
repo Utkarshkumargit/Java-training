@@ -1,0 +1,123 @@
+
+//STATIC VARIABLE
+class Student {
+    String collegeName = "IILM";
+    String name;
+    
+    Student(String name){
+        this.name = name;
+    }
+    void display(){
+        System.out .println(name + " studied at " + collegeName);
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+	    Student s1 = new Student ("Utkarsh");
+		s1.display();
+		Student s2 = new Student ("Ram");
+		s2.display();
+	}
+}
+
+
+
+
+
+
+
+ //STATIC METHOD
+class Square{
+    static int square(int num){
+        return num * num ;
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+	    System.out.println(Square.square(5));
+	
+	}
+}
+
+//DIFFERENCE
+Static is accessed by class name
+instrance is accessed by object name
+in static no need to use this key word
+in instrance we need to use this key word
+in instrance we make multiple copies
+
+
+
+
+
+
+
+
+//AGGREGATIOIN  
+// ADDRESS 
+
+class Address{ //class
+    private String city; //instance
+    Address(String city){ //constructor
+    this.city = city;
+        
+    }
+    public String getCity(){
+        return city;
+    }
+}
+//student class (Aggregate Address);
+class Student {
+    private String name;
+    private Address address;
+    
+    Student(String name, Address address ){
+        this.name = name;
+        this.address = address;
+    }
+    void display(){
+        System.out.println(name + " lives " + address.getCity());
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+	    Address add = new Address("Delhi");
+	    Student s1 = new Student("Aman",add);
+	    
+	    s1.display();
+	
+	}
+}
+*/
+// DEPENDENCY
+class Payment{
+    void pay(){
+        System.out.println("Payment successful");
+        
+    }
+}
+class Gpay{
+    void processPayment(Payment p){
+        p.pay();
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+	    Gpay pay = new Gpay();
+	    Payment payment = new Payment(); 
+	    pay.processPayment(payment);
+	
+	}
+}
+
+    
+
+
+
+
+
+
