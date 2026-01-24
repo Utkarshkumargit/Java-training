@@ -1,0 +1,128 @@
+//interface 
+//An interface in a java is an abstract type that define a 
+//set of methods a class must implements.
+
+//class-extends.  interface-implements
+
+//mltiple inheritance using interface
+
+
+interface tv{
+    void watchingTv();
+}
+interface food{
+    void eatingFood();
+
+}
+class Student implements tv,food{
+    public void watchingTv(){
+        System.out.println("watching Tv");
+    }
+    public void eatingFood(){
+        System.out.println("Eating food");
+    }
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Student s = new Student();
+	    s.watchingTv();
+	    s.eatingFood();
+		
+	}
+}
+//Student class inherit multiple interface
+
+
+----------------------------------------------------------------------------
+
+//INheriting the constructor
+//constructor can be inherited using SUPER keyword
+
+
+class Person{
+    Person(String name){
+        System.out.println("Person Name: "+name);
+        
+    }
+}
+
+class CollegeStudent extends Person{
+    CollegeStudent(String name){
+        super(name);//parent class constructer called
+        System.out.println("College student constructor called");
+        //clild class constructor called
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		CollegeStudent std = new CollegeStudent("Aman");
+	}
+}
+
+
+---------------------------------------------------------------------------
+//INheriting the constructor
+//constructor can be inherited using SUPER keyword
+
+
+class Person{
+    Person(String name){
+        System.out.println("Person Name: "+name);
+        
+    }
+}
+
+class CollegeStudent extends Person{
+    CollegeStudent(String name){
+        super(name);//parent class constructer called
+        System.out.println("College student constructor called");
+        //clild class constructor called
+    }
+}
+
+-----------------------------------------------------------------------------
+//INheriting Methods
+
+class Boss{
+    void manage(){
+        System.out.println("Boss is managing the system");
+    }
+}
+class Employee extends Boss{
+    void work(){
+        System.out.println("Employee is working");
+        
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		Employee emp = new Employee();
+		emp.manage();
+		emp.work();
+	}
+}
+------------------------------------------------------------------------------
+//Method overriding
+
+class CollegeStudents{
+    void task(){
+        System.out.println("Eating food");
+    }
+}
+class Student extends CollegeStudents{
+    @Override
+    void task (){
+        System.out.println("Drinking water");
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		CollegeStudents obj = new Student();
+		obj.task();
+	}
+}
