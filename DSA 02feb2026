@@ -1,0 +1,92 @@
+1 TWO SUM///////////////////////////////////////////////////////
+
+
+lass Solution {
+    public int[] twoSum(int[] nums, int target) {
+        // LOGIC 
+        int[] result = new int[2];
+        for(int i = 0; i < nums.length -1; i++) {
+            for(int j = i + 1; j < nums.length; j++) {
+                if(nums[i] + nums[j] == target) {
+                    return new int[] {i, j};
+                }
+            }
+        }
+        return result;
+    }
+}
+// TC:- O(n^2)
+// SC:- O(1)
+
+///////////////////////////////////////////////////////////////
+121. Best Time to Buy and Sell Stock
+
+
+class Solution {
+    public int maxProfit(int[] prices) {
+        int minPrice = Integer.MAX_VALUE;
+        int maxProfit = 0;
+
+        for(int i = 0; i < prices.length;i++){
+            minPrice = Math.min(minPrice,prices[i]);
+            maxProfit = Math.max(maxProfit,prices[i]-minPrice);
+        }
+        return maxProfit;
+        
+    }
+}
+
+////////////////////////////////////////////////////////////////
+
+283.MOVE ZEROES
+
+class Solution {
+    public void moveZeroes(int[] nums) {
+        int idx=0;
+        for(int i=0;i<nums.length;i++){
+            if(nums[i]!=0){
+                nums[idx]= nums[i];
+                idx++;
+            }
+
+        }
+        while(idx < nums.length){
+            nums[idx] = 0;
+            idx++;
+        }
+
+    }
+}
+//////////////////////////////////////////////////////////////////////
+GFG   zigzag array
+class Solution{
+    static int lengthofzigzag(int arr[],int n){
+        int max =1; //overall mamximum
+        int len = 1;// Current
+        
+        for(int i = 0; i < n - 1;i ++){
+            if(i%2 == 0 && (arr[i]<arr[i + 1]))
+            len++;
+            else(i % 2 == 1 && (arr[i] > arr[i + 1])) 
+            len++;
+            else{
+                if(max < len)
+                    max = len;
+                
+                len = 1;//reset the currentLen
+                
+            }
+        }
+        if (max < len)
+            max = len;
+            return max;// retuen the answer
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+	    int arr[] = {12,13,1,5,4,7,8,10,10,11};
+	    int n = arr.length;
+		System.out.println(lengthofzigzag(arr,n));
+	}
+}
