@@ -1,3 +1,21 @@
+///////////////////////////////////////////////////////////////////////////////////
+160. Intersection of Two Linked List
+public class Solution {
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        
+        ListNode A = headA;
+        ListNode B = headB;
+
+        while(A != B) {
+            A = (A == null) ? headB : A.next;
+            B = (B == null) ? headA : B.next;
+        }
+        return A;
+    }
+}
+
+////////////////////////////////////////////////////////////////////////////////////
+
 83. Remove Duplicates from Sorted List//////////////////////////////////////////////////////
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
