@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Utkarshkumargit/Java-training/tree/master/0200-number-of-islands) |
+| [0217-contains-duplicate](https://github.com/Utkarshkumargit/Java-training/tree/master/0217-contains-duplicate) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -21,4 +22,12 @@
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/Utkarshkumargit/Java-training/tree/master/0200-number-of-islands) |
+## Hash Table
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/Utkarshkumargit/Java-training/tree/master/0217-contains-duplicate) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/Utkarshkumargit/Java-training/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
