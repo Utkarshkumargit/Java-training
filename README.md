@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Utkarshkumargit/Java-training/tree/master/0037-sudoku-solver) |
 | [0200-number-of-islands](https://github.com/Utkarshkumargit/Java-training/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/Utkarshkumargit/Java-training/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Utkarshkumargit/Java-training/tree/master/0268-missing-number) |
@@ -22,10 +23,12 @@
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Utkarshkumargit/Java-training/tree/master/0037-sudoku-solver) |
 | [0200-number-of-islands](https://github.com/Utkarshkumargit/Java-training/tree/master/0200-number-of-islands) |
 ## Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/Utkarshkumargit/Java-training/tree/master/0037-sudoku-solver) |
 | [0217-contains-duplicate](https://github.com/Utkarshkumargit/Java-training/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Utkarshkumargit/Java-training/tree/master/0268-missing-number) |
 ## Sorting
@@ -57,8 +60,17 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Utkarshkumargit/Java-training/tree/master/0022-generate-parentheses) |
+| [0037-sudoku-solver](https://github.com/Utkarshkumargit/Java-training/tree/master/0037-sudoku-solver) |
 ## Bracket Sequences
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Utkarshkumargit/Java-training/tree/master/0022-generate-parentheses) |
+## Algorithm X
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/Utkarshkumargit/Java-training/tree/master/0037-sudoku-solver) |
+## Dancing Links
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/Utkarshkumargit/Java-training/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
