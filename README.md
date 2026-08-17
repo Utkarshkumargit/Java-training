@@ -76,4 +76,12 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Utkarshkumargit/Java-training/tree/master/0037-sudoku-solver) |
+## Linked List
+|  |
+| ------- |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Utkarshkumargit/Java-training/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+## Two Pointers
+|  |
+| ------- |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Utkarshkumargit/Java-training/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 <!---LeetCode Topics End-->
