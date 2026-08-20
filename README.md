@@ -44,6 +44,7 @@
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/Utkarshkumargit/Java-training/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/Utkarshkumargit/Java-training/tree/master/0268-missing-number) |
 ## Binary Search
 |  |
@@ -61,6 +62,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Utkarshkumargit/Java-training/tree/master/0022-generate-parentheses) |
+| [0070-climbing-stairs](https://github.com/Utkarshkumargit/Java-training/tree/master/0070-climbing-stairs) |
 ## Backtracking
 |  |
 | ------- |
@@ -122,4 +124,8 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Utkarshkumargit/Java-training/tree/master/0207-course-schedule) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Utkarshkumargit/Java-training/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
