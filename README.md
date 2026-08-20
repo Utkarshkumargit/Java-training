@@ -9,6 +9,7 @@
 | [0200-number-of-islands](https://github.com/Utkarshkumargit/Java-training/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/Utkarshkumargit/Java-training/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Utkarshkumargit/Java-training/tree/master/0268-missing-number) |
+| [0322-coin-change](https://github.com/Utkarshkumargit/Java-training/tree/master/0322-coin-change) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -21,6 +22,7 @@
 | ------- |
 | [0200-number-of-islands](https://github.com/Utkarshkumargit/Java-training/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Utkarshkumargit/Java-training/tree/master/0207-course-schedule) |
+| [0322-coin-change](https://github.com/Utkarshkumargit/Java-training/tree/master/0322-coin-change) |
 ## Union-Find
 |  |
 | ------- |
@@ -63,6 +65,7 @@
 | ------- |
 | [0022-generate-parentheses](https://github.com/Utkarshkumargit/Java-training/tree/master/0022-generate-parentheses) |
 | [0070-climbing-stairs](https://github.com/Utkarshkumargit/Java-training/tree/master/0070-climbing-stairs) |
+| [0322-coin-change](https://github.com/Utkarshkumargit/Java-training/tree/master/0322-coin-change) |
 ## Backtracking
 |  |
 | ------- |
@@ -128,4 +131,12 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Utkarshkumargit/Java-training/tree/master/0070-climbing-stairs) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/Utkarshkumargit/Java-training/tree/master/0322-coin-change) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/Utkarshkumargit/Java-training/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
