@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Utkarshkumargit/Java-training/tree/master/0001-two-sum) |
 | [0037-sudoku-solver](https://github.com/Utkarshkumargit/Java-training/tree/master/0037-sudoku-solver) |
 | [0051-n-queens](https://github.com/Utkarshkumargit/Java-training/tree/master/0051-n-queens) |
 | [0200-number-of-islands](https://github.com/Utkarshkumargit/Java-training/tree/master/0200-number-of-islands) |
@@ -35,6 +36,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Utkarshkumargit/Java-training/tree/master/0001-two-sum) |
 | [0037-sudoku-solver](https://github.com/Utkarshkumargit/Java-training/tree/master/0037-sudoku-solver) |
 | [0217-contains-duplicate](https://github.com/Utkarshkumargit/Java-training/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Utkarshkumargit/Java-training/tree/master/0268-missing-number) |
