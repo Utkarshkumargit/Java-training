@@ -7,6 +7,7 @@
 | [0001-two-sum](https://github.com/Utkarshkumargit/Java-training/tree/master/0001-two-sum) |
 | [0037-sudoku-solver](https://github.com/Utkarshkumargit/Java-training/tree/master/0037-sudoku-solver) |
 | [0051-n-queens](https://github.com/Utkarshkumargit/Java-training/tree/master/0051-n-queens) |
+| [0128-longest-consecutive-sequence](https://github.com/Utkarshkumargit/Java-training/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/Utkarshkumargit/Java-training/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/Utkarshkumargit/Java-training/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Utkarshkumargit/Java-training/tree/master/0268-missing-number) |
@@ -27,6 +28,7 @@
 ## Union-Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Utkarshkumargit/Java-training/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/Utkarshkumargit/Java-training/tree/master/0200-number-of-islands) |
 ## Matrix
 |  |
@@ -38,6 +40,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/Utkarshkumargit/Java-training/tree/master/0001-two-sum) |
 | [0037-sudoku-solver](https://github.com/Utkarshkumargit/Java-training/tree/master/0037-sudoku-solver) |
+| [0128-longest-consecutive-sequence](https://github.com/Utkarshkumargit/Java-training/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/Utkarshkumargit/Java-training/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/Utkarshkumargit/Java-training/tree/master/0268-missing-number) |
 ## Sorting
